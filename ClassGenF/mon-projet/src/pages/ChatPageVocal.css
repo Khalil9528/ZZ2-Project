@@ -1,0 +1,26 @@
+/* ChatPageVocal.css - Styles pour la reconnaissance vocale */
+.chat-vocal-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #252526;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: #d4d4d4;
+}
+
+.speech-button {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.speech-button:hover {
+    background-color: #ff79b0;
+    transform: translateY(-2px);
+}

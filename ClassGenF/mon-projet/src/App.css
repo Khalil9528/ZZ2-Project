@@ -1,0 +1,130 @@
+/* App.css - Amélioration du style pour un look plus professionnel et similaire à VS Code avec une structure de classe Java bien formatée */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+}
+
+/* Barre de navigation */
+nav {
+  background-color: #007acc;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #9cdcfe;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #252526;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #569cd6;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Boutons */
+button {
+  background-color: #007acc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #569cd6;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* Réponse générée avec style VS Code pour une classe Java bien formatée */
+.response {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-left: 4px solid #007acc;
+  margin: 20px 0;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre;
+  overflow-x: auto;
+  color: #d4d4d4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Coloration syntaxique pour le code Java */
+.response .keyword {
+  color: #569cd6;
+}
+.response .type {
+  color: #4ec9b0;
+}
+.response .string {
+  color: #ce9178;
+}
+.response .comment {
+  color: #6a9955;
+  font-style: italic;
+}
+
+/* Champs de saisie */
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #3c3c3c;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #252526;
+  color: #d4d4d4;
+}
+
+input[type='text']:focus {
+  border-color: #007acc;
+  outline: none;
+}
+
+/* Liens */
+a {
+  color: #569cd6;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #9cdcfe;
+}

@@ -1,0 +1,32 @@
+/* SelectLLM.css - Styles pour la page de sélection du modèle LLM */
+.llm-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #252526;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    color: #d4d4d4;
+}
+
+.llm-title {
+    font-size: 2rem;
+    color: #569cd6;
+    text-align: center;
+}
+
+.llm-button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.llm-button:hover {
+    background-color: #569cd6;
+    transform: translateY(-2px);
+}
